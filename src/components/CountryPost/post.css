@@ -1,0 +1,83 @@
+.post{
+    width: 100%;
+}
+.country-data{
+    display: flex;
+    align-items: center;
+}
+.country-records{
+    display: flex;
+}
+.country-records > h1{
+    font-size: 12px;
+}
+.country-records > p{
+    margin-left: 10px;
+}
+table, th, td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+td{
+    width: 170px;
+    padding: 15px 0;
+}
+.heading{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    margin-top: 20px;
+}
+.heading th{
+    font-size: 18px;
+    padding-left: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.country-data:nth-child(odd) {
+    background-color: rgb(197, 194, 194)
+}
+.country-data:hover{
+    cursor: pointer;
+    background-color: grey;
+    font-weight: 500;
+}
+.country-data{
+    padding-left: 10px;
+}
+.country-name{
+    text-align: left;
+}
+/* @media only screen and (max-width:890px){
+    .heading{
+        width: 100%;
+    }
+    .heading th{
+        font: 14px;
+    }
+} */
+@media only screen and (max-width:680px){
+    /* .post{
+        margin-left: -20px;
+    } */
+    .heading th{
+        font-size: 10px;
+        font-weight: 400;
+        padding-left: 2px;
+    }
+    .heading{
+        margin-left: -10px;
+    }
+    .country-data{
+        padding-left: 1px;
+        width: 90%;
+    }
+    .country-data td{
+        font-size: 12px;
+    }
+    .country-records{
+        width: 95%;
+    }
+}

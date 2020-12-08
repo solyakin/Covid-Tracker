@@ -1,0 +1,92 @@
+.query {
+    text-align: center;
+    margin: 0 70px;
+}
+.landingpage input{
+    margin-top: 17em;
+}
+.landingpage input[type= 'search']{
+    width: 200px;
+    height: 4em;
+    margin-right: 3em;
+    border: 2px solid #eee;
+}
+.landingpage input[type = 'search']:active{
+    outline: none;
+    border: none;
+}
+.landingpage input[type= 'button']{
+    padding: 1.5em 2em;
+    border: none;
+    color: cadetblue;
+}
+.hide{
+    display: none;
+}
+.landingpage input[type= 'button']:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.global-heading{
+    font-size: 23px;
+    font-weight: 500;
+    text-align: left;
+}
+.landingpage{
+    width: 100%;
+    height: 80vh;
+}
+.global{
+    display: flex;
+    margin-left: -4px;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: white;
+    border-radius: 5px;
+}
+.topcase_card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.topcases h1{
+    font-size: 23px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 10px;
+    /* padding-top: 20px; */
+}
+
+.creator h3{
+    font-weight: 100;
+    font-size: 16px;
+}
+.creator span{
+    color: rgb(99, 99, 233);
+}
+
+@media only screen and (max-width: 680px){
+    .landingpage{
+        width: 100%;
+    }
+    .landingpage input{
+        margin-top: 150px;
+    }
+    .query{
+        margin: 0 20px;
+        width: 100%;
+    }
+    .hide{
+        display: block;
+    }
+    .container{
+        width: 90%;
+    }
+    .heading{
+        width: 80%;
+        font-size: 18px;
+    }
+    .topcase_card{
+        text-align: center;
+    }
+}

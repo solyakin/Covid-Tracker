@@ -1,0 +1,27 @@
+.footer{
+    background-color: white;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+.flex{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.link, .source{
+    width: 40%;
+    margin: 0 20px;
+}
+.source p{
+    text-align: left;
+    line-height: 2.5;
+    margin-left: 20px;
+}
+@media only screen and (max-width:680px){
+    .flex{
+        display: block;
+    }
+    .link, .source{
+        width: 80%;
+    }
+}

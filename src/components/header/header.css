@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    background-color: white;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.header li{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 13px 16px;
+}
+@media only screen and (max-width:680px){
+    .header{
+        background-color: transparent;
+        display: none;
+    }
+    .header h1{
+        font-size: 10px;
+    }
+    .header nav{
+        display: none;
+    }
+}

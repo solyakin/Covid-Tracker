@@ -1,0 +1,156 @@
+.definition{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0px;
+}
+.definition img{
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+}
+.content{
+    width: 50%;
+    text-align: left;
+    margin-top: 5em;
+}
+.content p {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 2.4;
+}
+.virus_image h1{
+    text-align: left;
+}
+.info_card{
+    display: flex;
+    margin: 20px 15px;
+}
+.info h2, .info p{
+    text-align: left;
+    font-size: 18px;
+}
+.info h1{
+    font-size: 28px;
+    text-align: left;
+    text-transform: capitalize;
+    color: rgb(36, 35, 35);
+    margin-top: 15px;
+}
+.info{
+    width: 60%;
+    margin-right: 40px;
+}
+.info p{
+    line-height: 1.6;
+}
+.info ul{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    margin-left: -20px;
+    font-size: 17px;
+}
+.info li{
+    margin-right: 40px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: rgb(53, 51, 51);
+}
+
+.symptoms_card{
+    background-color: rgb(235, 234, 234);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.image{
+    margin-left: 20px;
+}
+.images_detail{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.image_card-1, .image_card-2, .image_card-3, .image_card-4, .image_card-5, .image_card-6{
+    border: 1px solid rgb(167, 166, 166);
+    border-radius: 5px;
+    width: 160px;
+    margin: 20px;
+    height: 190px;
+}
+.image_card-1 h3, .image_card-2 h3, .image_card-3 h3, .image_card-4 h3, .image_card-5 h3{
+    margin-top: -2px;
+    font-weight: 200;
+    font-size: 16px;
+}
+.image_card-6 h3{
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.images_detail img{
+    width: 160px;
+    /* margin: 20px; */
+}
+.prevention span{
+    color: rgb(25, 192, 25);
+}
+.prevention_card{
+    display: flex;
+}
+.prevention h1{
+    text-align: left;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 680px){
+    .info_card{
+        display: block;
+    }
+    .definition{
+        display: block;
+    }
+    .definition img{
+        width: 310px;
+    }
+    .content{
+        width: 90%;
+    }
+    .info{
+        width: 80%;
+        text-align: center;
+    }
+    .prevention_card{
+        display: block;
+    }
+    .maskedman img{
+        width: 200px;
+    }
+    .image img{
+        width: 70px;
+        margin-left: -20px;
+        /* position: absolute; */
+    }
+    .info p, .info h1{
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.9;
+    }
+    .symptoms_card{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .virus_image h1{
+        font-size: 18px;
+    }
+    .prevention h1{
+        font-size: 21px;
+        text-align: center;
+    }
+    .images_detail img{
+        text-align: center;
+    }
+    /* .info_card{
+        position: relative;
+    } */
+}
